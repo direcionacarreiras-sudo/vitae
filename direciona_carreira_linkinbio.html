@@ -141,6 +141,98 @@
 
   .arrow { color: #c9a96e; font-size: 18px; }
 
+  .section-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 16px; font-weight: 600;
+    color: #2c2015; letter-spacing: 0.5px;
+    margin-bottom: 16px; text-align: center;
+  }
+
+  .services-container {
+    width: 100%; max-width: 320px;
+    display: flex; flex-direction: column;
+    gap: 12px; margin-bottom: 8px;
+  }
+
+  .service-card {
+    background: #fff;
+    border: 1px solid #e8d9c4;
+    border-radius: 16px;
+    padding: 20px;
+    position: relative;
+  }
+
+  .service-card.featured {
+    border-color: #c9a96e;
+    background: #fffbf5;
+  }
+
+  .service-badge {
+    display: inline-block;
+    background: #c9a96e;
+    color: #fff;
+    font-size: 10px; font-weight: 500;
+    letter-spacing: 1px; text-transform: uppercase;
+    padding: 3px 10px; border-radius: 20px;
+    margin-bottom: 10px;
+  }
+
+  .service-name {
+    font-size: 15px; font-weight: 500;
+    color: #2c2015; margin-bottom: 4px;
+  }
+
+  .service-desc {
+    font-size: 12px; color: #7a6248;
+    font-weight: 300; line-height: 1.5;
+    margin-bottom: 12px;
+  }
+
+  .service-features {
+    list-style: none;
+    margin-bottom: 14px;
+  }
+
+  .service-features li {
+    font-size: 12px; color: #7a6248;
+    font-weight: 300; line-height: 1.6;
+    padding: 3px 0;
+  }
+
+  .service-features li::marker { display: none; }
+    font-family: 'Playfair Display', serif;
+    font-size: 24px; font-weight: 600;
+    color: #b8894a; margin-bottom: 14px;
+  }
+
+  .service-btn {
+    display: block; text-align: center;
+    background: #2c2015; color: #e8c882;
+    font-size: 13px; font-weight: 500;
+    padding: 10px; border-radius: 10px;
+    text-decoration: none; letter-spacing: 0.5px;
+    transition: all 0.2s;
+  }
+
+  .service-btn:hover { background: #b8894a; color: #fff; }
+
+  .avulso-item {
+    display: flex; justify-content: space-between;
+    align-items: center; padding: 8px 0;
+    border-bottom: 0.5px solid #f0e8db;
+    margin-bottom: 4px;
+  }
+
+  .avulso-item:last-of-type { margin-bottom: 14px; }
+
+  .avulso-label {
+    font-size: 13px; color: #5a4a38; font-weight: 400;
+  }
+
+  .avulso-price {
+    font-size: 14px; font-weight: 500; color: #b8894a;
+  }
+
   .footer-text {
     margin-top: 40px;
     font-size: 11px; color: #c9bfb0;
@@ -230,6 +322,64 @@
     </div>
     <span class="arrow">→</span>
   </a>
+
+</div>
+
+<div class="divider" style="margin-top: 32px;"></div>
+
+<p class="section-title">Nossos Serviços</p>
+
+<div class="services-container">
+
+  <div class="service-card">
+    <p class="service-name">Pacote Essencial</p>
+    <ul class="service-features">
+      <li>✦ Currículo ATS Friendly</li>
+      <li>✦ Formatação profissional e objetiva</li>
+      <li>✦ Reformulação completa do LinkedIn</li>
+      <li>✦ Headline estratégica e seção "Sobre" otimizada</li>
+      <li>✦ Perfil otimizado para atrair oportunidades</li>
+      <li>✦ Gupy otimizado para vencer o algoritmo</li>
+      <li>✦ Catho otimizado para ser descoberto pelas IAs da plataforma</li>
+      <li>✦ Infojobs ajustado para máxima visibilidade</li>
+    </ul>
+    <p class="service-price">R$ 50</p>
+    <a class="service-btn" href="https://wa.link/f9ptli" target="_blank">Quero esse →</a>
+  </div>
+
+  <div class="service-card featured">
+    <span class="service-badge">Mais completo</span>
+    <p class="service-name">Pacote Completo</p>
+    <ul class="service-features">
+      <li>✦ Currículo ATS Friendly</li>
+      <li>✦ Reformulação completa do LinkedIn</li>
+      <li>✦ Headline estratégica e seção "Sobre" otimizada</li>
+      <li>✦ Treino para entrevista com Metodologia STAR</li>
+      <li>✦ Simulação de perguntas e respostas</li>
+      <li>✦ Dicas para se posicionar com confiança</li>
+    </ul>
+    <p class="service-price">R$ 120</p>
+    <a class="service-btn" href="https://wa.link/tdf89z" target="_blank">Quero esse →</a>
+  </div>
+
+  <div class="service-card avulsos">
+    <p class="service-name">Serviços Avulsos</p>
+    <div class="avulso-item">
+      <span class="avulso-label">Elaboração de Currículo</span>
+      <span class="avulso-price">R$ 40</span>
+    </div>
+    <div class="avulso-item">
+      <span class="avulso-label">Reformulação de LinkedIn</span>
+      <span class="avulso-price">R$ 40</span>
+    </div>
+    <div class="avulso-item">
+      <span class="avulso-label">Treino para Entrevista</span>
+      <span class="avulso-price">R$ 75</span>
+    </div>
+    <a class="service-btn" href="https://wa.link/dmsysn" target="_blank">Quero esse →</a>
+  </div>
+
+</div>
 
 <p class="footer-text">vitae o seu currículo</p>
 
